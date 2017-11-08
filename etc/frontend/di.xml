@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
+    <!--
+    Replaced by JS to hide empty Attributes
     <type name="Magento\Catalog\Block\Product\View\Attributes">
         <plugin sortOrder="1" name="iMiHideEmptyAttributes" type="IMI\HideEmptyAttributes\Plugin\Block\Product\View\Attributes"/>
-    </type>
+    </type>-->
 
     <type name="Magento\Eav\Model\Entity\Attribute\Frontend\AbstractFrontend">
         <plugin sortOrder="1" name="iMiHideEmptyAttributes" type="IMI\HideEmptyAttributes\Plugin\Eav\Model\Entity\Attribute\Frontend\AbstractFrontend"/>
