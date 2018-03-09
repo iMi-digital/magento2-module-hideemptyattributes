@@ -2,8 +2,8 @@
     "name": "imi/magento2-module-hideemptyattributes",
     "description": "",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/module-catalog": "~101.0.8",
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "magento/module-catalog": "^101.0.8|^102.0.2",
         "magento/magento-composer-installer": "*"
     },
     "suggest": {
